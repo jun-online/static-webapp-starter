@@ -2,7 +2,7 @@
   "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
   "configurations": {
     "time-tracker-test": {
-      "appLocation": "web",
+      "appLocation": ".",
       "apiLocation": "api",
       "outputLocation": "dist",
       "apiLanguage": "node",
@@ -10,7 +10,7 @@
       "appBuildCommand": "npm run build",
       "apiBuildCommand": "npm run build --if-present",
       "run": "npm run dev",
-      "appDevserverUrl": "http://localhost:5173",
+      "appDevserverUrl": "http://localhost:8080",
       "appName": "time-tracker-test",
       "resourceGroup": "time-tracker-test-rg"
     }

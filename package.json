@@ -9,8 +9,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "build:dev": "vite build --mode development",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start-swa": "swa start"
   },
   "dependencies": {
     "@tanstack/react-query": "^5.90.12",
